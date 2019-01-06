@@ -1,0 +1,115 @@
+body{background-color:;
+     padding:0px;
+     margin-left:0px;
+      margin-right:0px;}
+
+.top{background-color: white;
+      display:flex;
+      flex-direction:row;
+      flex-wrap:nowrap;
+      justify-content: space-between;
+       align-items:;
+     }
+
+#navbar{background-color:gray;
+	    color:white;
+	    display:flex;
+	    flex-direction:row;
+	    flex-wrap:nowrap;
+	    justify-content: space-between; 
+	    align-items: stretch;
+	    height: 37px;
+	    padding-top: 10px;
+}
+a:hover{background-color: black;}
+a{height:px;
+	font-size: 150%;
+  padding: 10px;
+  text-decoration: none;
+  color:white;}
+
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*  main page designing starts here */
+
+.pagefloatcontroler{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sidenav{background-color: #DCDCDC;}
+
+.addsbar{background-color: #DCDCDC;}
+
+.main-content{margin: 2%;}
+
+h1{font-weight: 100;
+   font-size: 250% ; 
+  }
+
+.nav2{display:flex;
+       }
+
+.central{flex-grow: 2;}
+
+button{background-color: #32CD32;
+       height: 40px; 
+        width: 100px;
+      color:white;
+      font-size: 150%;
+      border:none;}
+
+.introbox{background-color: #E0FFFF;
+         padding: 20px;
+         padding-top: 10px ;
+         margin-top: 10px;
+         border-left: 7px solid #32CD32 ;
+         color: #006400;
+     }
+
+    p{font-size: 120%;}
+   h3{font-weight: 100;}
+   h2{font-weight: 100;
+      font-size: 200%;}
+
+    .example{background-color:#DCDCDC;
+             border-radius: 3px;
+            box-shadow: 3px 3px 25px gray , -3px 3px 25px gray;
+            height:400px;
+            }
+
+   strong{font-size: 130%;}
+
+   .middle-link{color:black;text-decoration: underline;font-size:120%;}
+
+   a.middle-link:hover{color:green;
+   	      background-color: white;}
+
+.addblock{height:200px; width:120px;
+          background-color: #DCDCDC;
+          align-self: center;
+           margin: auto;}
+
+
+
+
+
+
+
